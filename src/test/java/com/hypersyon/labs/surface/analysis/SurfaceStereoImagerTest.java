@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 Hypersyon Corp.
+ * Copyright (C) 2013-present Hypersyon.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hypersyon.surface.stereo.imager;
+package com.hypersyon.labs.surface.analysis;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -21,9 +21,11 @@ import junit.framework.TestSuite;
 
 /**
  * Unit test for SurfaceStereoImager.
+ *
+ * @author Carlos Uribe [carlos.uribe@hypersyon.com]
+ * @version 1.0
  */
-public class SurfaceStereoImagerTest
-        extends TestCase {
+public class SurfaceStereoImagerTest extends TestCase {
 
   /**
    * Create the test case
@@ -42,7 +44,7 @@ public class SurfaceStereoImagerTest
   }
 
   /**
-   * Rigourous Test :-) (Netbeans and its automated comments :P)
+   * Rigourous Test :-) (Netbeans automated comments :P)
    */
   public void testApp() {
     assertTrue(true);

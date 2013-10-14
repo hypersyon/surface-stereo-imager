@@ -1,6 +1,13 @@
+# Binary Files #
 *.class
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# Standard Files #
+nbactions.xml
+/target/
+/vive.in
+/plan.b
